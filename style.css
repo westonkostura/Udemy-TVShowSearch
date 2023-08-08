@@ -11,12 +11,18 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    background-color: var(--gray);
 }
 
 #header {
     margin: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     font-size: 30px;
+}
+
+#description {
+    font-size: 15px;
+    padding: 5px 75px 20px;
 }
 
 .headerDiv {
@@ -25,6 +31,20 @@ body {
     align-items: center;
     text-align: center;
     padding: 35px;
+    background-color: var(--brown);
+}
+
+.headerDiv button {
+    background-color: var(--orange);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .pictures {
@@ -35,5 +55,8 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
 
+.pictures img {
+    padding: 5px;
 }
