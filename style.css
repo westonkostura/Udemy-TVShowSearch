@@ -1,0 +1,39 @@
+:root {
+    --gray: #9E9FA5;
+    --brown: #C4C1A4;
+    --tan: #FFF6DC;
+    --orange: #FFC6AC;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#header {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.headerDiv {
+    display: flex nowrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+}
+
+.pictures {
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
